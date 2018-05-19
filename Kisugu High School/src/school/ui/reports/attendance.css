@@ -1,0 +1,149 @@
+
+
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.separator .line {
+	/*-fx-border-color: blue;*/
+	-fx-border-width: 1.0;
+	-fx-background-color: blue;
+}
+
+
+.label .hBoxColumnHeaders {
+	-fx-font-size: 20.0;
+}
+
+#font-button {
+	-fx-font: bold italic 20.0pt "Arial";
+	-fx-effect: dropshadow(one-pass-box, black, 8.0, 0.0, 2.0, 0.0);
+}
+
+.address .scroll-bar:vertical {
+	-fx-background-color: rgb(255.0, 0.0, 0.0);
+}
+
+.root {
+	/*	-fx-background-color: rgba(0, 0, 255, 0.6); */
+	/* rgb(1,65,13)  ;*/
+	-fx-opacity: 20.0;
+	/*rgba(150,0,150,0.3) rgba(150,0,0,0.3) transparent rgba(0,0,0,0.7); */
+	-fx-background: #67644e;
+	/* transparent, #DDF1F8, #0E5D79, white, #0E5D79; */
+	/*-fx-background-image: url("gold8.jpeg"); */
+
+	-fx-opacity: 20.0;
+	-fx-background-color: cadetblue;
+}
+
+.table-view {
+	-fx-background-color: transparent;
+	/*-fx-background-image: url("gold8.jpeg");*/
+	/*    -fx-background-image: url("Wallpaper.jpg");
+    -fx-background-size: stretch;
+ */
+	/* -my-wash: rgba(255,255,255,.75);*/
+}
+/*
+.table-view > .column-header-background > .filler {
+    -fx-background-color: -my-wash;
+}
+
+.table-view > .column-header-background > .nested-column-header > .column-header.table-column {
+    -fx-background-color: -my-wash;
+}
+
+ */
+.table-view {
+	/*-fx-border-color: rgb(71,168,77); */
+	-fx-border-width: 1.0;
+}
+
+.table-row-cell {
+	-fx-border-color: green;
+	-fx-table-cell-border-color: cadetblue;
+}
+
+.table-view .table-row-cell {
+	-fx-border-width: 0.0;
+}
+
+/* Set the font for the cells */
+.table-row-cell {
+
+-fx-background-color: cadetblue;
+	/*-fx-background-image: url("bright-squares.png"); */
+	-fx-opacity: 1.0;
+	/*-fx-background-color: black;*/
+	-fx-font-size: 12.0pt;
+	-fx-font-family: Arial;
+	-fx-text-fill: blue;
+	-fx-font-smoothing-type: lcd;
+}
+/* Text in the rows will be white */
+.table-row-cell .text {
+	-fx-fill: wheat;
+	-fx-opacity: 1.0;
+}
+
+/* Selected row */
+.table-view:focused .table-row-cell:filled:focused:selected {
+	-fx-background-color: brown;
+	-fx-background-insets: 0.0, 1.0, 2.0;
+	-fx-background: -fx-accent;
+	-fx-text-fill: -fx-selection-bar-text;
+}
+
+/* Selected row when table not focused */
+.table-row-cell:filled:focused:selected {
+	-fx-background-color: cadetblue;
+	-fx-background-insets: 0.0, 1.0, 2.0;
+	-fx-background: -fx-accent;
+	-fx-text-fill: -fx-selection-bar-text;
+}
+
+/* Row hovered */
+.table-view:row-selection .table-row-cell:filled:hover {
+	-fx-background-color: green;
+	-fx-background-insets: 0.0, 0.0 0.0 1.0 0.0;
+	-fx-text-fill: -fx-text-inner-color;
+}
+
+/* Selected row hovered */
+.table-view:focused .table-row-cell:filled:focused:selected:hover {
+	-fx-background: -fx-accent;
+	-fx-background-color: yellow;
+	-fx-background-insets: 0.0, 1.0, 2.0;
+	-fx-text-fill: -fx-selection-bar-text;
+}
+
+/* Selected row hovered when table not focused */
+.table-view:row-selection .table-row-cell:filled:focused:hover {
+	-fx-background-color: blue;
+	-fx-background-insets: 0.0, 0.0 0.0 1.0 0.0, 1.0 1.0 2.0 1.0, 2.0 2.0 3.0 2.0, 3.0 3.0 4.0 3.0;
+	-fx-text-fill: -fx-text-inner-color;
+}
+
+/* Set the font size and text color for column headers */
+.table-view .column-header .label {
+	-fx-font-size: 10.0pt;
+	-fx-text-fill: blue;
+}
+
+/* .button {
+-fx-background-color: transparent  ;
+-fx-text-fill: blue;
+-fx-border-color: red, black;
+-fx-border-width: 5, 5;
+-fx-border-radius: 0, 0;
+-fx-border-insets: 0, 5;
+-fx-border-style: solid inside, dashed outside;
+
+} */
+.label {
+	-fx-text-fill: white;
+	-fx-font-size: 13.0;
+}
+
+.scroll-bar {
+	-fx-background-color: rgb(96.0, 96.0, 96.0);
+	-fx-background-radius: 2.0em;
+}
