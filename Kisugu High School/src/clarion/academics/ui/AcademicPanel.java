@@ -44,6 +44,8 @@ public class AcademicPanel extends JPanel {
 		vb.getChildren().add(lvListDisplayedStudents);
 
 		Scene scene = new Scene(vb);
+		
+		//yesssssssssssssssssss
 
 		JFXPanel panel = new JFXPanel();
 		panel.setScene(scene);
