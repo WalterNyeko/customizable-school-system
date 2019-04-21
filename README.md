@@ -1,2 +1,2 @@
-# School-System-Kisugu
-This is still under development
+# School-System-Uganda
+This is a desktop application implemented in JavaFx and Java Swing for secondary schools in Uganda for managing their daily activities by wiping out paper work. The app cordinates and interlinks all the activities within the different school departments and therefore centralizes the school data store and ensures automation of activities, safety of data, ease of access to the school's data, and simplifies the work of all the departments within the school.
